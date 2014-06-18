@@ -7,6 +7,6 @@ dbpath = "http://localhost:7474/db/data/"
 
 graph_db = neo4j.GraphDatabaseService(dbpath)
 
-n_node = graph_db.find({"name": "Alice"})
+n_node = graph_db.find(name = 'Alan Rickman')
 
 print n_node
